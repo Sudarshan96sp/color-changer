@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.colors-container{
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    height: 18.75rem;
+    width: 25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.938rem;
+    flex-wrap: wrap;
+    padding: 0.625rem;
+    /* margin-left: 100px;
+    margin-right: 100px; */
+
+}
+
+#color-btn{
+    height: 4.375rem;
+    width: 4.375rem;
+    border-radius: 10px;
+    margin: 2px;
+}
+
+.red{
+    background-color: #FF0000;
+}
+
+.green{
+    background-color: #00FF00;
+}
+
+.blue{
+    background-color: #0000FF;
+}
+
+.yellow{
+    background-color: #FFFF00;
+}
+
+.cyan{
+    background-color: #00FFFF;
+}
+
+.magneta{
+    background-color: #FF00FF;
+
+}
+
+.black{
+    background-color: #000000;
+    color: white;
+}
+
+.white{
+    background-color:  #FFFFFF;
+}
+
+.gray{
+    background-color: #808080;
+}
+
+.orange{
+    background-color: #FFA500;
+}
+
+.purple{
+    background-color:  #800080;
+}
+
+.pink{
+    background-color: #FFC0CB;
+}
+
+@media (max-width:549px){
+    .colors-container{
+        height: fit-content;
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 0.538rem;
+    }
+
+    #color-btn{
+        height: 3.375rem;
+        width: 3.375rem;
+        border-radius: 10px;
+        font-size: 10px;
+
+        
+    }
+
+}
+
+@media (max-width:348px){
+    .colors-container{
+        height: fit-content;
+        
+        margin-left: 100px;
+        margin-right: 100px;
+        gap: 0.05rem;
+    }
+
+    #color-btn{
+        height: 2.375rem;
+        width: 2.375rem;
+        border-radius: 10px;
+        font-size: 8px;
+
+        
+    }
+
+}
